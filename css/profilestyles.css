@@ -75,6 +75,7 @@ main{
 .myprofile {
     display: flex;
     background-color: #212121;
+    padding: 1rem;;
     
 }
 
@@ -84,10 +85,26 @@ main{
 }
 
 .title {
+    margin-bottom: 2rem;;
+}
+
+.aboutme-part {
+    margin-bottom: 2rem;
+}
+
+.aboutme-part h2 {
+    margin-bottom: 1rem;
+}
+
+.title {
     padding-bottom: 0.5rem;
 }
 
+.links {
+    margin-left: 5rem;
+}
+
 .profilepic {
-    width: 5rem;
+    width: 7rem;
     height: auto;
 }
