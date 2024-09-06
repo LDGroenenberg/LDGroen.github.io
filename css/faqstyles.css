@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'cascadia-mono';
+    src: url(../fonts/CascadiaMono-Regular.otf)
+}
+
+* {
+    background-color: black;
+    color: white;
+    font-family: 'cascadia-mono';
+    size: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header-menu bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+}
+
+.headertitle h1 {
+    font-size: 2rem;
+
+}
+
+.headerbuttons nav a {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.headerbuttons a {
+    text-decoration: none;
+}
+
+.homebutton:hover {
+    color: #76cdfa;
+}
+
+.profilebutton:hover {
+    color: #c08c63;
+}
+
+.blogbutton:hover {
+    color: #bbcda1;
+}
+
+.dashboardbutton:hover {
+    color: #3479d1;
+}
+
+.faqbutton:hover {
+    color: #b889b2;
+}

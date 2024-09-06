@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'cascadia-mono';
+    src: url(../fonts/CascadiaMono-Regular.otf)
+}
+
+* {
+    color: white;
+    font-family: 'cascadia-mono';
+    size: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: black;
+}
+
+/* Header-menu bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.headertitle h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.headerbuttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.headerbuttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerbuttons p {
+    color: white;
+}
+
+.homebutton:hover {
+    color: #76cdfa;
+}
+
+.profilebutton:hover {
+    color: #c08c63;
+}
+
+.blogbutton:hover {
+    color: #bbcda1;
+}
+
+.dashboardbutton:hover {
+    color: #3479d1;
+}
+
+.faqbutton:hover {
+    color: #b889b2;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.aboutme {
+    display: flex ;
+    flex-direction: column;
+    
+    
+}
+
+.title {
+    padding-bottom: 0.5rem;
+}
+
+img {
+    width: 30rem;
+    height: auto;
+    margin-left: 40rem;
+    margin-top: 3rem;
+}
