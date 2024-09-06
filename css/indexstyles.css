@@ -88,8 +88,7 @@ button:hover {
     position: absolute;
     background-color: #212121;
     min-width: 160px;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 
 .usefulllinks a {
