@@ -173,8 +173,16 @@ main {
 footer {
     background-color: #212121;
     display: flex;
-    justify-content: space-evenly;
     padding: 1rem 0;
+    gap: 13rem;
+}
+
+.footer-img {
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
 
 .hz-extended-logo {
@@ -182,11 +190,22 @@ footer {
     height: auto;
 }
 
-footer section ul {
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+}
+
+.footer-links ul {
     list-style-type: none;
 }
 
-footer section ul li a {
+.footer-links ul h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.footer-links ul li a {
     color: white;
     text-decoration: none;
 }

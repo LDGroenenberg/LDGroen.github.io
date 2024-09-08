@@ -66,11 +66,13 @@ header {
     color: #b889b2;
 }
 
+/* Main content */
 main{
     display: flex;
     justify-content: center;
     
 }
+
 
 .myprofile {
     display: flex;
@@ -79,13 +81,15 @@ main{
     
 }
 
+
 .aboutme {
-    display: flex ;
+    display: flex;
     flex-direction: column;
 }
 
-.title {
-    margin-bottom: 2rem;;
+.aboutme-title {
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .aboutme-part {
@@ -96,15 +100,15 @@ main{
     margin-bottom: 1rem;
 }
 
-.title {
-    padding-bottom: 0.5rem;
-}
 
 .links {
-    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
 }
 
 .profilepic {
+    margin-top: 2rem;
     width: 7rem;
     height: auto;
 }
