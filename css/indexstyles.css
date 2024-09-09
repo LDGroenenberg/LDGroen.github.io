@@ -112,20 +112,17 @@ main {
     flex-direction: column;
     align-items: center;
     color: white;
+    gap: 3rem;
+    margin-bottom: 3rem;
 
 }
 
-.chosestudy {
+main section {
     display: flex;
     flex-direction: column;
     background-color: #212121;
     padding: 1rem;
-    margin-bottom: 3rem;
-    
-}
-
-.chosestudy h2 {
-   padding-bottom: 1rem;
+    gap: 1rem;
 }
 
 .chosestudy div {
@@ -140,19 +137,6 @@ main {
 .hzlogo {
     width: auto;
     height: 16.5rem;
-}
-
-.ictworkfield {
-    display: flex;
-    flex-direction: column;
-    background-color: #212121;
-    padding: 1rem;
-    margin-bottom: 3rem;
-    
-}
-
-.ictworkfield h2 {
-   padding-bottom: 1rem;
 }
 
 .ictworkfield div {
@@ -172,40 +156,38 @@ main {
 /* footer */
 footer {
     background-color: #212121;
-    display: flex;
-    padding: 1rem 0;
-    gap: 13rem;
-}
-
-.footer-img {
-    display: flex;
-    margin-left: 1rem;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-}
-
-.hz-extended-logo {
-    width: 5rem;
-    height: auto;
+    color: white
 }
 
 .footer-links {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 15rem;
+    align-items: center;
+    padding: 1rem 10rem;
+
 }
 
-.footer-links ul {
-    list-style-type: none;
+.hz-extended-logo {
+    width: 6rem;
+    height: auto;
 }
 
-.footer-links ul h3 {
-    color: white;
-    margin-bottom: 1rem;
+.footer-links h4 {
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.1rem;
+    list-style: none;
 }
 
 .footer-links ul li a {
-    color: white;
     text-decoration: none;
+    color:gainsboro;
+}
+
+.footerusefulllinks ul li a:hover {
+    color: #49885d;
 }
