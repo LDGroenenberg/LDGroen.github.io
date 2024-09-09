@@ -24,7 +24,6 @@ header {
 
 .headertitle h1 {
     font-size: 2rem;
-
 }
 
 .headerbuttons nav a {
@@ -56,3 +55,14 @@ header {
 .faqbutton:hover {
     color: #b889b2;
 }
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table td, th {
+    border: 1px solid white;
+    padding: 4px;
+}
+

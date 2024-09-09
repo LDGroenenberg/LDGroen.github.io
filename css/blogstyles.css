@@ -4,8 +4,6 @@
 }
 
 * {
-    background-color: black;
-    color: white;
     font-family: 'cascadia-mono';
     size: 10px;
     box-sizing: border-box;
@@ -13,21 +11,27 @@
     margin: 0;
 }
 
+html {
+    background-color: black;
+    color: white;
+}
+
 /* Header-menu bar */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    position: sticky;
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    position: relative;
 }
 
 .headertitle h1 {
     font-size: 2rem;
-
+    color: white;
 }
 
-.headerbuttons nav a{
+.headerbuttons {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -35,6 +39,11 @@ header {
 
 .headerbuttons a {
     text-decoration: none;
+    color: white;
+}
+
+.headerbuttons p {
+    color: white;
 }
 
 .homebutton:hover {
@@ -55,4 +64,16 @@ header {
 
 .faqbutton:hover {
     color: #b889b2;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    background-color: #212121;
 }
