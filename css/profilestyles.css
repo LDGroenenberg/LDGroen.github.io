@@ -158,3 +158,22 @@ footer {
 .footerusefulllinks ul li a:hover {
     color: #49885d;
 }
+
+.maker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maker hr {
+    width: 25rem;
+    margin-bottom: 0.5rem;
+}
+
+.maker p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+}

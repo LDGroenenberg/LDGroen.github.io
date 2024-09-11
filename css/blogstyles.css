@@ -77,15 +77,21 @@ main {
 
 main section {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    background-color: #212121;
-    padding: 1rem;
+    gap: 10rem;
+    
 }
 
-main section h2 {
+main section article {
+    background-color: #212121;
+    width: 30rem;
+    padding: 1rem;
+
+}
+
+main section article h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
     
 }
