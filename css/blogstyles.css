@@ -73,11 +73,12 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 5rem;
+    margin-bottom: 3rem;
 }
 
 main section {
     display: flex;
-    gap: 10rem;
+    gap: 6rem;
     
 }
 
@@ -88,10 +89,72 @@ main section article {
 
 }
 
+.ictarticle {
+    background-color: black
+}
+
 main section article h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
     
+}
+
+/* footer */
+footer {
+    background-color: #212121;
+    color: white
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+
+}
+
+.hz-extended-logo {
+    width: 6rem;
+    height: auto;
+}
+
+.footer-links h4 {
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.1rem;
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color:gainsboro;
+}
+
+.footerusefulllinks ul li a:hover {
+    color: #49885d;
+}
+
+.maker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maker hr {
+    width: 25rem;
+    margin-bottom: 0.5rem;
+}
+
+.maker p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
 }

@@ -67,6 +67,25 @@ header {
 }
 
 /* main */
+main {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+main section {
+    background-color: #212121;
+    width: 35rem;
+    padding: 1rem;
+}
+
+main section h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
 
 
 /* footer */

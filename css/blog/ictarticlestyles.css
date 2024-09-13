@@ -67,6 +67,26 @@ header {
 }
 
 /* main */
+main {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+main section {
+    padding: 1rem;
+    background-color: #212121;
+    width: 50rem;
+}
+
+main section h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+
 
 
 /* footer */
