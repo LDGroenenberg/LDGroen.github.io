@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="css/indexstyles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/indexstyles.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
     <header>
-        <section class="headertitle">
+        <section class="headerTitle">
             <h1>&lt;Who i am/&gt;</h1>
         </section>
-        <nav class="headerbuttons">
-            <aside class="dropdown">
-                <button class="dropbutton">&lt;Links&gt;</button>
-                <div class="usefulllinks">
+        <section class="pageNavigation">
+            <nav>
+                <a class="indexbutton" href="index.html">&lt;Home&gt;</a>
+                <a class="profilebutton" href="html/profile.html">&lt;Profile&gt;</a>
+                <a class="blogbutton" href="html/blog.html">&lt;Blog&gt;</a>
+                <a class="dashboardbutton" href="html/dashboard.html">&lt;Dashboard&gt;</a>
+                <a class="faqbutton" href="html/faq.html">&lt;faq&gt;</a>
+            </nav>
+        </section>
+        <section class="usefullLinks">
+            <aside>
+                <a class="dropDownButton">&lt;Links&gt;</a>
+                <div class="dropDown">
                     <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf?_gl=1*1us1txq*_up*MQ..&gclid=Cj0KCQjwiuC2BhDSARIsALOVfBKurbY7bDLmshx8x2BGn1gRz97T8jy3Tz_x_yvpk8ipMFH4tgeMWnEaAt2hEALw_wcB" target="_blank">Course and Examination Regulations</a>
                     <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank">Implementation Regulations</a>
                     <a href="https://glaze-donut-5a5.notion.site/PCO1en-Your-Showcase-Website-7bc8c340f66047d0b49b83e8dc44ba23" target="_blank"> Learn environment</a>
@@ -22,42 +33,51 @@
                     <a href="https://github.com/HZ-HBO-ICT" target="_blank">Github HZ HBO ICT</a>
                 </div>
             </aside>
-            <p>|</p>
-            <a class="profilebutton" href="html/profile.html">&lt;Profile&gt;</a>
-            <a class="blogbutton" href="html/blog.html">&lt;Blog&gt;</a>
-            <a class="dashboardbutton" href="html/dashboard.html">&lt;Dashboard&gt;</a>
-            <a class="faqbutton" href="html/faq.html">&lt;faq&gt;</a>
-        </nav>
+        </section>
     </header>
     <main>
-        <section class="Welcome">
-            <h2>&lt;Welcome/&gt;</h2>
-            <p>
-                My name is Lucas and this is my Who I am website.<br/>
-                this site to tell you a little bit about me witch you can find at the profile page.<br/>
-                On the blog page I have some more info like my SWOT analysis.<br/>
-                The dashboard page is to keep track of my study progress,<br/>
-                and on the FAQ page you can find Frequently Asked Questions.
-            </p>
-        </section>
-        <section class="chosestudy">
-            <h2>&lt;Why i chose for HBO-ICT/&gt;</h2>
-            <div>
+
+
+        <section class="mainSectionOne">
+            <article class="welcome">
+                <h2>&lt;Welcome/&gt;</h2>
                 <p>
-                    before I signed up for this study I worked 3 years at a elementary school.<br/>
-                    I started to lose interest in the job and didn't got the fun out of it as when I started working.<br/>
-                    In the mean time I started to pick up coding and got more ICT tasks at my work.<br/>
-                    I started with simply copying code and try to edit it to what I wanted it to do,<br/> 
-                    but soon after I started learning html and CSS and made some simple websites.<br/>
-                    I also found work more fun again by doing some ICT tasks but it just wasn't it.<br/>
-                    For some time I was looking to start a new study, and I just made the decision and chose for HBO ICT.
+                    My name is Lucas Groenenberg and this is my Who I am portofolio website.<br/>
+                    this site to tell you a little bit about me witch you can find at the profile page.<br/>
+                    On the blog page I have some more info like my SWOT analysis.<br/>
+                    The dashboard page is to keep track of my study progress,<br/>
+                    and on the FAQ page you can find Frequently Asked Questions.
                 </p>
-                <img class="hzlogo" src="resources/hz-logo.png" alt="hz-logo https://hz.nl/en/">
-            </div>       
+            </article>
+            <article class="background">
+                <!--<img src="/resources/backgrountimage2.png"> -->
+            </article>
         </section>
-        <section class="ictworkfield">
-            <h2>&lt;Why the ICT workfield fits me/&gt;</h2>
-            <div>
+
+
+        <section class="studyChose">
+            <article>
+                <div>
+                    <h2>&lt;Why i chose for HBO-ICT/&gt;</h2>
+                    <p>
+                        before I signed up for this study I worked 3 years at a elementary school.<br/>
+                        I started to lose interest in the job,<br>
+                        and didn't got the fun out of it as when I started working.<br/>
+                        In the mean time I started to pick up coding and got more ICT tasks at my work.<br/>
+                        I started with simply copying code and try to edit it to what I wanted it to do,<br/> 
+                        but soon after I started learning html and CSS and made some simple websites.<br/>
+                        I also found work more fun again by doing some ICT tasks but it just wasn't it.<br/>
+                        For some time I was looking to start a new study,<br>
+                        and I just made the decision and chose for HBO ICT.
+                    </p>
+                </div>
+                <img class="hzlogo" src="resources/hz-logo.png" alt="hz-logo https://hz.nl/en/">
+            </article>     
+        </section>
+
+
+        <section class="ictWorkField">
+            <article><h2>&lt;Why the ICT workfield fits me/&gt;</h2>
                 <p>
                     I like to work with computers. I always want to learn new thing to  achieve my goals.<br/> 
                     ICT is verry big there are countless options of what you can do.<br/> 
@@ -67,15 +87,20 @@
                     because of my work experience I fount out I just like working with computers,<br/>
                     and that it is something I would just like to do.
                 </p>
-            </div>
+            </article>
         </section>
     </main>
     <footer>
-        <section class="footer-links">
+        <section class="footerCredits">
             <div>
-                <p>Folowing HBO-ICT at:</p>
-                <img class="hz-extended-logo" src="resources/hz-university-of-applied-sciences.png" alt="hz-university-of-applied-sciences">
+                <p>Folowing HBO-ICT at:<a href="https://hz.nl/"><img class="hz-extended-logo" src="resources/hz-university-of-applied-sciences.png" alt="hz-university-of-applied-sciences"></a></p>
             </div>
+            <hr>
+            <div>
+                <p>Made by Lucas Groenenberg <a href="https://github.com/LDGroenenberg" target="_blank"><img src="resources/githubicon.png" alt="Github"></a></p>
+            </div>
+        </section>
+        <section class="footerLinks">    
             <div>
                 <h4>&lt;Pages/&gt;</h4>
                 <ul>
@@ -85,6 +110,7 @@
                     <li><a class="faqbutton" href="faq.html">&lt;faq&gt;</a></li>
                 </ul>
             </div>
+            <article><!--vertical line--></article>
             <div class="footerusefulllinks">
                 <h4>&lt;Links/&gt;</h4>
                 <ul>
@@ -95,10 +121,6 @@
                     <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">Github HZ HBO ICT</a></li>
                 </ul>
             </div>
-        </section>
-        <section class="maker">
-            <hr>
-            <p>&copy; Made by Lucas Groenenberg <a href="https://github.com/LDGroenenberg" target="_blank"><img src="resources/githubicon.png"></a></p>
         </section>
     </footer>
 </body>
