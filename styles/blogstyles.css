@@ -51,10 +51,6 @@ main section article {
 
 }
 
-.ictarticle {
-    background-color: black
-}
-
 main section article h2 {
     display: flex;
     align-items: center;

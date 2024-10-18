@@ -16,63 +16,13 @@ html {
     color: white;
 }
 
-/* Header-menu bar */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 1rem;
-    margin-bottom: 3rem;
-    position: relative;
-}
-
-.headertitle h1 {
-    font-size: 2rem;
-    color: white;
-}
-
-.headerbuttons {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-.headerbuttons a {
-    text-decoration: none;
-    color: white;
-}
-
-.headerbuttons p {
-    color: white;
-}
-
-.homebutton:hover {
-    color: #76cdfa;
-}
-
-.profilebutton:hover {
-    color: #c08c63;
-}
-
-.blogbutton:hover {
-    color: #bbcda1;
-}
-
-.dashboardbutton:hover {
-    color: #3479d1;
-}
-
-.faqbutton:hover {
-    color: #b889b2;
-}
-
 /* main */
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 }
 
 main details {

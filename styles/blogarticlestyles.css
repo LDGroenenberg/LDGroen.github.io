@@ -21,7 +21,7 @@ main {
     display: flex;
     justify-content: center;
     color: white;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 }
 
 main section {
