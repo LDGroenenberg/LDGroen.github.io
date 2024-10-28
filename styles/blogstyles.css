@@ -21,8 +21,8 @@
 }
 
 html {
-    background-color: black;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--fond-color);
 }
 
 
@@ -44,7 +44,7 @@ main section {
 }
 
 main section article {
-    background-color: #212121;
+    background-color: var(--primary-color);
     width: 30rem;
     border: 1rem solid var(--primary-color);;
     border-radius: 1rem;

@@ -1,10 +1,19 @@
+:root {
+    --background-color: #0F0F0F;
+    --fond-color: #FFFFFF;
+    --secondary-fond-color: #cccccc;
+    --primary-color: #222222;
+    --secondary-color: #35e70d;
+    --accent-color: #054403;
+}
+
 @font-face {
     font-family: 'cascadia-mono';
     src: url(../fonts/CascadiaMono-Regular.otf)
 }
 
 * {
-    color: white;
+    color: var(--fond-color);
     font-family: 'cascadia-mono';
     size: 10px;
     box-sizing: border-box;
@@ -13,7 +22,7 @@
 }
 
 html {
-    background-color: black;
+    background-color: var(--background-color);
 }
 
 /*main*/
@@ -21,74 +30,52 @@ main {
     display: flex;
     justify-content: center;
     margin: 3rem 0;
-
 }
 
 table {
-    border: 1px solid white;
+    border: 1px solid var(--fond-color);
     border-collapse: collapse;
-    background-color: #212121;
+    background-color: var(--primary-color);
+   
 }
 
 table td, th {
-    border: 1px solid white;
+    border: 1px solid var(--fond-color);
     padding: 4px;
 }
 
-/* footer */
-footer {
-    background-color: #212121;
+/* in progress */
+.inProgress td {
+    color: orange;
+}
+
+#inProgress {
+    color: orange;
+}
+
+/* failed */
+.failed td {
+    color: red;
+}
+
+#failed {
+    color: red;
+}
+
+/* passed */
+.passed td {
+    color: green;
+}
+
+#passed {
+    color: green;
+}
+
+/* not started */
+.notStarted td {
     color: white
 }
 
-.footer-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 10rem;
-
-}
-
-.hz-extended-logo {
-    width: 6rem;
-    height: auto;
-}
-
-.footer-links h4 {
-    margin-bottom: 0.5rem;
-    list-style: none;
-}
-
-.footer-links ul li {
-    margin-bottom: 0.1rem;
-    list-style: none;
-}
-
-.footer-links ul li a {
-    text-decoration: none;
-    color:gainsboro;
-}
-
-.footerusefulllinks ul li a:hover {
-    color: #49885d;
-}
-
-.maker {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.maker hr {
-    width: 25rem;
-    margin-bottom: 0.5rem;
-}
-
-.maker p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem
+#notStarted {
+    color: white
 }

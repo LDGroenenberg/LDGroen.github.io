@@ -13,7 +13,7 @@
 }
 
 * {
-    color: white;
+    color: var(--fond-color);
     font-family: 'cascadia-mono';
     size: 10px;
     box-sizing: border-box;
@@ -87,4 +87,8 @@ main section article div img {
 
 .games a:hover, .music a:hover{
     transform: scale(1.1);
+}
+
+.links ul li a {
+    text-decoration: none
 }

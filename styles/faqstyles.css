@@ -1,3 +1,12 @@
+:root {
+    --background-color: #0F0F0F;
+    --fond-color: #FFFFFF;
+    --secondary-fond-color: #cccccc;
+    --primary-color: #222222;
+    --secondary-color: #35e70d;
+    --accent-color: #054403;
+}
+
 @font-face {
     font-family: 'cascadia-mono';
     src: url(../fonts/CascadiaMono-Regular.otf)
@@ -12,8 +21,8 @@
 }
 
 html {
-    background-color: black;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--fond-color);
 }
 
 /* main */
@@ -26,68 +35,10 @@ main {
 }
 
 main details {
-    background-color: #212121;
+    background-color: var(--primary-color);
     padding: 1rem;
 }
 
 main details[open] summary {
     margin-bottom: 1rem;
-}
-/* footer*/
-
-footer {
-    background-color: #212121;
-    color: white
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 10rem;
-
-}
-
-.hz-extended-logo {
-    width: 6rem;
-    height: auto;
-}
-
-.footer-links h4 {
-    margin-bottom: 0.5rem;
-    list-style: none;
-}
-
-.footer-links ul li {
-    margin-bottom: 0.1rem;
-    list-style: none;
-}
-
-.footer-links ul li a {
-    text-decoration: none;
-    color:gainsboro;
-}
-
-.footerusefulllinks ul li a:hover {
-    color: #49885d;
-}
-
-.maker {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.maker hr {
-    width: 25rem;
-    margin-bottom: 0.5rem;
-}
-
-.maker p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem
 }
