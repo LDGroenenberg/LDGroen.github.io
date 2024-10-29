@@ -36,7 +36,8 @@ main {
 
 main details {
     background-color: var(--primary-color);
-    padding: 1rem;
+    border: 1rem solid var(--primary-color);
+    border-radius: 1rem;
 }
 
 main details[open] summary {
